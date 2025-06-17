@@ -9,7 +9,7 @@ function App() {
 
       <header className="header">
         <img
-          src="../src/assets/photos/[CITYPNG.COM]Sanrio Character Kawaii Kuromi Character HD PNG - 1500x1500.png"
+          src="/photos/kuromi.png"
           alt="Kuromi"
           style={{ width: "100px", marginBottom: "1rem" }}
         />

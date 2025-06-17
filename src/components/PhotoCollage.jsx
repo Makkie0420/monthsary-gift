@@ -2,10 +2,10 @@ import React from "react";
 import "./PhotoCollage.css";
 
 const photos = [
-    "/public/1.jpg",
-    "/public/2.jpg",
-    "/public/3.jpg",
-    "/public/4.jpg",
+    "/photos/1.jpg",
+    "/photos/2.jpg",
+    "/photos/3.jpg",
+    "/photos/4.jpg",
 ];
 
 function PhotoCollage() {
