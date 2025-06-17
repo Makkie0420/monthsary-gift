@@ -14,7 +14,7 @@ function App() {
           style={{ width: "100px", marginBottom: "1rem" }}
         />
         <h1>Happy Monthsary, BB! 💜🖤</h1>
-        <p>To my cutest bb🖤</p>
+        <p>To my cutest bb ILOVEYOU 🖤</p>
       </header>
 
       <section className="message">
