@@ -1,0 +1,38 @@
+.collage-container {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.collage-container h2 {
+    margin-bottom: 1.5rem;
+    color: #f6c0dc;
+    font-size: 2rem;
+    font-family: "Great Vibes", cursive;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.8rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.photo-box {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid #f6c0dc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+.photo-box:hover {
+    transform: scale(1.04);
+}

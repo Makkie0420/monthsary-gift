@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to bottom right, #2e2e2e, #6f42c1);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.app {
+    text-align: center;
+    padding: 1.5rem;
+    position: relative;
+    min-height: 100vh;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://media.tenor.com/MRrBYmFwtdQAAAAC/kuromi-cute.gif') center/cover no-repeat;
+    opacity: 0.07;
+    z-index: -1;
+}
+
+.header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.8rem;
+    margin: 1rem 0 0.3rem;
+    color: #f6c0dc;
+}
+
+.header p {
+    font-size: 1.1rem;
+    max-width: 90%;
+    margin: 0 auto;
+    color: #dcd6f7;
+}
+
+.message {
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 1.5rem;
+    border-radius: 16px;
+    margin: 2rem auto;
+    max-width: 600px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}
+
+.message p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+.sign {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    color: #f6c0dc;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    opacity: 0.8;
+    color: #ddd;
+}
